@@ -6,22 +6,52 @@ h1 {
     font-size: 2rem;
     color:#000000;
     font-weight: 600;
+    padding: 50px;
+    font-family: 'Dancing Script', cursive;
 }
 
 h2 {
     font-size: 1.5rem;
     color:  #000000;
-
+    font-family: 'Dancing Script', cursive;
+    padding-left: 10px;
 }
 
 h3 {
     font-size: 1.3rem;
     color: #000000;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 15px;
 }
 
 a {
     background-color: #000000;
     color: #fff;
     text-decoration: none;
-    padding: 20px;
+    padding: 20px 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+p {
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 10px;
+}
+
+ul {
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ol {
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#backtotop {
+    padding-top: 10px;
 }
