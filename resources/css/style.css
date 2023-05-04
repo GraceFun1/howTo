@@ -3,7 +3,7 @@
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 6rem;
     color:#000000;
     font-weight: 600;
     padding: 50px;
@@ -11,47 +11,58 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color:  #000000;
     font-family: 'Dancing Script', cursive;
     padding-left: 10px;
+    padding: 20px;
+    font-weight: 600;
 }
 
 h3 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #000000;
     font-family: 'Dancing Script', cursive;
-    padding-left: 15px;
+    padding: 20px;
+    font-weight: 600;
 }
 
 a {
     background-color: #000000;
     color: #fff;
     text-decoration: none;
-    padding: 20px 30px;
+    padding: 20px;
     font-family: 'Dancing Script', cursive;
 }
 
 nav {
-    padding: 20px 0;
+    padding: 20px;
 }
 
 p {
     font-family: 'Instrument Serif', serif;
     font-family: 'Open Sans', sans-serif;
-    padding: 20px 10px;
+    padding: 20px;
 }
 
 ul {
     font-family: 'Instrument Serif', serif;
     font-family: 'Open Sans', sans-serif;
+    padding-left: 40px;
+    list-style-type: square;
 }
 
 ol {
     font-family: 'Instrument Serif', serif;
     font-family: 'Open Sans', sans-serif;
+    padding-left: 40px;
+    list-style-type: decimal;
 }
 
 #backtotop {
     padding-top: 10px;
+}
+
+img {
+    padding-left: 30px;
 }
