@@ -3,7 +3,7 @@
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 3rem;
     color:#000000;
     font-weight: 600;
     padding: 50px;
@@ -28,11 +28,19 @@ h3 {
 }
 
 a {
-    background-color: #000000;
+    background-color: rgb(240, 207, 213);
     color: #fff;
     text-decoration: none;
     padding: 20px;
     font-family: 'Dancing Script', cursive;
+    border: 5px outset rgb(240, 220, 224);
+    transition-duration: .3s;
+    border-radius: 3px;
+}
+
+a:hover {
+    border: 5px outset rgb(240, 207, 213);
+    background-color: rgb(240, 220, 224);
 }
 
 nav {
