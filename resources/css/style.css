@@ -1,5 +1,8 @@
 *{
-    background-color: #e2c6c3;
+    background-color: #e2c6c3;}
+    
+body{
+    margin: auto;
 }
 
 h1 {
@@ -8,6 +11,7 @@ h1 {
     font-weight: 600;
     padding: 50px;
     font-family: 'Dancing Script', cursive;
+    text-align: center;
 }
 
 h2 {
@@ -35,7 +39,9 @@ a {
     font-family: 'Dancing Script', cursive;
     border: 5px outset rgb(240, 220, 224);
     transition-duration: .3s;
-    border-radius: 3px;
+    border-radius: 50%;
+    margin: 5px;
+    width: 40%;
 }
 
 a:hover {
@@ -44,7 +50,9 @@ a:hover {
 }
 
 nav {
-    padding: 20px;
+    border-bottom: 5px solid #000000;
+    padding: 50px;
+    margin: 30px;
 }
 
 p {
@@ -69,8 +77,35 @@ ol {
 
 #backtotop {
     padding-top: 10px;
+    width: 100%;
 }
 
 img {
-    padding-left: 30px;
+    padding-left: 500px;
+}
+
+.image-container {
+    margin: auto;
+    text-align: center;
+}
+div.aneasytensteprecipe {
+    text-align: center;
+}
+
+#whatyouwillneed {
+    border-bottom: 5px solid #000000;
+    padding: 20px;
+    margin: 30px;
+}
+
+#howitsmade {
+    border-bottom: 5px solid #000000;
+    padding: 20px;
+    margin: 30px;
+}
+
+
+#menu {
+    padding: 20px;
+    margin: 30px;
 }
