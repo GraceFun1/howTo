@@ -61,18 +61,23 @@ p {
     padding: 20px;
 }
 
+ol,
 ul {
-    font-family: 'Instrument Serif', serif;
-    font-family: 'Open Sans', sans-serif;
     padding-left: 40px;
-    list-style-type: square;
 }
 
-ol {
+ul  li {
     font-family: 'Instrument Serif', serif;
     font-family: 'Open Sans', sans-serif;
-    padding-left: 40px;
+    list-style-image: url("../images/check.svg");
+    padding: 5px;
+}
+
+ol li {
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Open Sans', sans-serif;
     list-style-type: decimal;
+    padding: 10px;
 }
 
 #backtotop {
@@ -108,4 +113,8 @@ div.aneasytensteprecipe {
 #menu {
     padding: 20px;
     margin: 30px;
+}
+
+div.congrats {
+    padding-left: 40px;
 }
