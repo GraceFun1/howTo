@@ -1,12 +1,14 @@
 *{
-    background-color: #e2c6c3;}
+    background-color: #e2c6c3;
+    height: auto;
+}
     
 body{
-    margin: auto;
+    width: 90%;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 5vw;
     color:#000000;
     font-weight: 600;
     padding: 50px;
@@ -15,7 +17,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3.5vw;
     color:  #000000;
     font-family: 'Dancing Script', cursive;
     padding-left: 10px;
@@ -24,7 +26,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 2.5vw;
     color: #000000;
     font-family: 'Dancing Script', cursive;
     padding: 20px;
@@ -42,6 +44,7 @@ a {
     border-radius: 50%;
     margin: 5px;
     width: 40%;
+    font-size: 1vw;
 }
 
 a:hover {
@@ -59,11 +62,13 @@ p {
     font-family: 'Instrument Serif', serif;
     font-family: 'Open Sans', sans-serif;
     padding: 20px;
+    font-size: 1vw;
 }
 
 ol,
 ul {
     padding-left: 40px;
+    font-size: 1vw;
 }
 
 ul  li {
@@ -85,8 +90,9 @@ ol li {
     width: 100%;
 }
 
-img {
-    padding-left: 250px;
+.image-container img {
+    width: 50%;
+    height: auto;
 }
 
 .image-container {
