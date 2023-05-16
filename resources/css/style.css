@@ -4,9 +4,7 @@
     
 body{
     width: 90%;
-    background-image: url(../images/slime.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: linear-gradient(to right, rgb(240, 219, 222), rgb(202, 167, 202));
 }
 
 h1 {
@@ -125,4 +123,17 @@ div.aneasytensteprecipe {
 
 div.congrats {
     padding-left: 40px;
+
+}
+
+#video {
+    width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
