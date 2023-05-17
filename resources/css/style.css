@@ -45,6 +45,7 @@ a {
     margin: 5px;
     width: 40%;
     font-size: 1.5vw;
+    opacity: .7;
 }
 
 a:hover {
@@ -98,6 +99,7 @@ ol li {
 .image-container {
     margin: auto;
     text-align: center;
+    opacity: .7;
 }
 div.aneasytensteprecipe {
     text-align: center;
@@ -127,13 +129,25 @@ div.congrats {
 }
 
 #video {
-    width: 100vw;
-  height: 100vh;
   object-fit: cover;
-  position: fixed;
+  position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    #video{
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    #video{
+        height: 100%;
+        width: auto;
+    }
 }
