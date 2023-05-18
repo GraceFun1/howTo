@@ -1,5 +1,6 @@
 *{
     height: auto;
+    margin-top: 40px;
 }
     
 body{
@@ -14,6 +15,8 @@ h1 {
     padding: 50px;
     font-family: 'Dancing Script', cursive;
     text-align: center;
+    padding-top: 40px;
+    margin-top: 40px;
 }
 
 h2 {
@@ -45,7 +48,6 @@ a {
     margin: 5px;
     width: 40%;
     font-size: 1.5vw;
-    opacity: .7;
 }
 
 a:hover {
@@ -99,7 +101,6 @@ ol li {
 .image-container {
     margin: auto;
     text-align: center;
-    opacity: .7;
 }
 div.aneasytensteprecipe {
     text-align: center;
@@ -150,4 +151,33 @@ div.congrats {
         height: 100%;
         width: auto;
     }
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(240, 219, 222);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    float: right;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    padding: 0%;
+    opacity: 100%;
+    border-radius: 0%;
+    font-size: 1.5vw;
+    background-color: rgb(240, 219, 222);
+    border: none;
+}
+
+.header {
+    float: left;
 }
