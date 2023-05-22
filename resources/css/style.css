@@ -1,6 +1,7 @@
 *{
     height: auto;
     margin-top: 40px;
+    word-wrap: normal;
 }
     
 body{
@@ -100,7 +101,9 @@ ol li {
 
 .image-container {
     margin: auto;
-    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 div.aneasytensteprecipe {
     text-align: center;
@@ -137,6 +140,8 @@ div.congrats {
   top: 0;
   bottom: 0;
   z-index: -1;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @media (min-aspect-ratio: 16/9){
@@ -180,4 +185,6 @@ div.congrats {
 
 .header {
     float: left;
+    display: flex;
+    flex-wrap: wrap;
 }
