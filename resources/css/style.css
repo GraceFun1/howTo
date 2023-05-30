@@ -106,7 +106,10 @@ ol li {
     flex-wrap: wrap;
 }
 div.aneasytensteprecipe {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap-reverse;
 }
 
 #whatyouwillneed {
