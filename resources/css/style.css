@@ -191,3 +191,36 @@ div.congrats {
     display: flex;
     flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 922px) {
+    .navbar {
+        display: none;
+    }
+    .moble {
+        display: flex;
+    }
+    h3 {
+        font-size: 1.8rem;
+    }
+    body {
+        width: 100%;
+    }
+    h2 {
+        font-size: 2.3rem;
+    }
+    h1 {
+        font-size: 2.9rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    ul, ol {
+        font-size: 1rem;
+    }
+    a {
+        font-size: .8rem;
+    }
+    #video {
+        display: none;
+    }
+}
