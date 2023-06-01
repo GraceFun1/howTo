@@ -6,7 +6,7 @@
     
 body{
     width: 90%;
-    background: linear-gradient(to right, rgb(240, 219, 222), rgb(202, 167, 202));
+    background: linear-gradient(to right, rgb(252, 238, 240), rgb(202, 167, 202));
 }
 
 h1 {
@@ -186,7 +186,7 @@ div.congrats {
     border: none;
 }
 
-.header {
+div.header {
     float: left;
     display: flex;
     flex-wrap: wrap;
@@ -218,8 +218,15 @@ div.congrats {
         font-size: 1rem;
     }
     a {
-        font-size: .8rem;
+        font-size: .9rem;
     }
+    .image-container {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1101px) {
     #video {
         display: none;
     }
