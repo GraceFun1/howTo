@@ -168,11 +168,14 @@ div.congrats {
     top: 0;
     width: 100%;
     padding: 20px;
-    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    flex-direction: row;
 }
 
 .navbar a {
-    float: left;
     display: block;
     color: #fff;
     text-align: center;
@@ -184,12 +187,19 @@ div.congrats {
     font-size: 1.5vw;
     background-color: rgb(240, 219, 222);
     border: none;
+    display: flex;
+    float: left;
+}
+
+a:visited {
+    color: white;
 }
 
 div.header {
-    float: left;
+    flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
+    border-width: 0;
 }
 
 @media only screen and (max-width: 922px) {
@@ -230,4 +240,7 @@ div.header {
     #video {
         display: none;
     }
+}
+.links {
+    flex-grow: .1;
 }
