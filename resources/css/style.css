@@ -92,6 +92,9 @@ ol li {
 #backtotop {
     padding-top: 10px;
     width: 100%;
+    padding: none;
+    background-color: none;
+    border: none;
 }
 
 .image-container img {
@@ -228,7 +231,7 @@ div.header {
         font-size: 1rem;
     }
     a {
-        font-size: .9rem;
+        font-size: .96rem;
     }
     .image-container {
         width: 100%;
@@ -243,4 +246,16 @@ div.header {
 }
 .links {
     flex-grow: .1;
+}
+
+.seceret-image {
+text-align: center;
+opacity: 0;
+color: #c7c1c1;
+padding: auto;
+margin: auto;
+}
+
+.seceret-image:hover {
+    opacity: 100%;
 }
